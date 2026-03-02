@@ -1,0 +1,12 @@
+{
+    "required": true,
+    "package": "com.pestswap.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "AccessorInventory"
+    ],
+    "client": [],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

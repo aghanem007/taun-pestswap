@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "pestswap",
+  "version": "${version}",
+  "name": "PestSwap",
+  "description": "Standalone pest gear swapper for Hypixel SkyBlock",
+  "authors": ["jetzalel"],
+  "license": "MIT",
+  "environment": "*",
+  "mixins": [
+    "pestswap.mixins.json"
+  ],
+  "entrypoints": {
+    "main": [
+      "com.pestswap.PestSwap"
+    ],
+    "client": [
+      "com.pestswap.PestSwapClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
